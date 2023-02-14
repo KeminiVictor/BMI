@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+	<title>BMI Calculator</title>
+	<script src="https://kit.fontawesome.com/0170857075.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div id="content">
+	<h1>BMI Calculator</h1><br>
+		<nav>
+		 <div class="dropdown">
+		 	 <button class="dropbtn">Financial Calculators <i class="fa-solid fa-caret-down"></i></button>
+
+		   <div class="dropdown-content">
+			    <a href="#">Mortgage Calculator</a>
+			    <a href="#">Loan Calculator</a>
+			    <a href="#">Interest Calculator</a>
+			    <a href="#">Payment Calculator</a>
+			    <a href="#">Retirement Calculator</a>
+			    <a href="#">Amortization Calculator</a>
+			    <a href="#">Investment Calculator</a>
+			    <a href="#">Inflation Calculator</a>
+			    <a href="#">Finance Calculator</a>
+			    <a href="#">Income Tax Calculator</a>
+			    <a href="#">Compound Interest Calculator</a>
+			    <a href="#">Salary Calculator</a>
+			    <a href="#">Interest Rate Calculator</a>
+			    <a href="#">Sales Tax Calculator</a>
+		  </div>
+		 </div>
+
+		 <div class="dropdown">
+		 	<button class="dropbtn">Fitness and Health Calculators <i class="fa-solid fa-caret-down"></i></button>
+		   <div class="dropdown-content">
+			    <a href="#">BMI Calcualtor</a>
+			    <a href="#">Calorie Calculator</a>
+			    <a href="#">Body Fat Calculator</a>
+			    <a href="#">BMR Calculator</a>
+			    <a href="#">Ideal Weight Calculator</a>
+			    <a href="#">Pace Calculator</a>
+			    <a href="#">Pregnancy Calculator</a>
+			    <a href="#">Pregnancy Conception Calculator</a>
+			    <a href="#">Due Date Calculator</a>
+		  </div>
+		 </div>
+
+		  <div class="dropdown">
+		  	<button class="dropbtn">Math Calculators <i class="fa-solid fa-caret-down"></i></button>
+		   <div class="dropdown-content">
+			    <a href="#">Scientific Calculator</a>
+			    <a href="#">Fraction Calculator</a>
+			    <a href="#">Percentage Calculator</a>
+			    <a href="#">Random Number</a>
+			    <a href="#">Triangle Calculator</a>
+			    <a href="#">Standard Deviation</a>
+		  </div>
+		 </div>
+
+		   <div class="dropdown">
+		   	<button class="dropbtn">Other Calculators <i class="fa-solid fa-caret-down"></i></button>
+		   <div class="dropdown-content">
+			    <a href="#">Age Calculator</a>
+			    <a href="#">Date Calculator</a>
+			    <a href="#">Time Calculator</a>
+			    <a href="#">Hours Calculator</a>
+			    <a href="#">GPA Calculator</a>
+		     	<a href="#">Concrete Calculator</a>
+			    <a href="#">Grade Calculator</a>
+		    	<a href="#">Subnet Calculator</a>
+			    <a href="#">Password Generator</a>
+			    <a href="#">Conversion Calculator</a>
+		  </div>
+		 </div>
+
+		</nav><br><br>
+
+		<script src="https://kit.fontawesome.com/0170857075.js" crossorigin="anonymous"></script>
+
+		&nbsp;&nbsp;&nbsp;&nbsp;<button id="toggle-mode-button">Toggle Mode</button>
+
+
+<center>
+	
+		<div class="BMI">
+			<div class="units">
+				<div>US Units</div>
+			</div>
+			<div class="input">
+				<label>Age:</label>
+				<input type="number" name="" placeholder="age"><br>
+				<label>Height (cm):</label>
+				<input type="number" id="height" name="" placeholder="Height"><br>
+				<label>Weight (kg):</label>
+				<input type="number" id="weight" name="" placeholder="Weight">
+				<button id="calculate-button">Calculate BMI</button>
+			</div>
+		</div>
+	</center>
+
+		<br><br><p id="bmi-result"></p>
+		<script src="index.js"></script>
+	</div>
+</body>
+</html>
